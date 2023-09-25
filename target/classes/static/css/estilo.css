@@ -1,0 +1,285 @@
+@charset "ISO-8859-1";
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #f8f8f8;
+}
+
+
+.navbar-toggler {
+	border: none;
+}
+
+
+.navbar {
+	visibility: hidden;
+	display: none;
+}
+
+.navbar-nav {
+	background-color: #304651;
+	border-radius: 0.5rem;
+	margin-top: 1rem;
+}
+
+.navbar-nav a:hover {
+	background-color: #2FD1BC;
+	border-radius: 0.5rem;
+}
+
+.nav-link {
+	color: white;
+}
+
+
+
+.logo-menu {
+	display: flex;
+	width: 100vw;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+	
+.logo-menu img {
+	width: 5rem;
+}
+
+#almoxarifado {
+	font-weight: bold;
+}
+
+.main {
+	display: flex;
+	width: 100vw;
+	height: 100vh;	
+}
+
+.barra-menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 19vw;
+	flex-direction: column;
+	background-color: #304651;
+}
+
+.barra-menu ul {
+	color: white;
+	text-decoration: none;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.barra-menu li {
+	width: 100%;
+	color: white;
+	text-decoration: none;
+	list-style-type: none;
+	margin: 0;
+	padding: 0.5rem;
+	font-size: 1.7rem;	
+}
+
+.barra-menu h4 { 
+	color: #E0E332;
+	margin-top: 2rem;
+}
+
+.menu {
+	width: 100%;
+	margin-top: 5.8rem;
+}
+
+.menu a {
+	text-decoration: none;	
+}
+
+.menu li {
+	padding-left: 3rem;	
+}
+
+.menu li:hover {
+	width: 100%;
+	background-color: #2FD1BC; 	
+}
+
+
+#logo-javou {
+	width: 10rem;
+	margin-top: 8rem;
+}
+
+.conteudo {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 100vw;
+	background-color: #f8f8f8;
+}
+
+.conteudo-form {
+	margin: auto;
+	max-width: 500px;
+}
+
+/*
+#cabecalho_titulo {	
+	display: flex;
+	width: 100%;
+	height: 9vh;
+	align-items: center;
+	justify-content: center;
+	background-color: #cccccc;
+}
+*/
+
+.conteudo_centro {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 83vw;
+	height: 87vh;
+}
+
+.container_botoes {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 50rem;
+	height:30rem;
+	
+}
+
+
+/*===== TABLES =====*/
+
+td {
+	vertical-align: middle;
+	max-width: 2rem;
+}
+
+
+.bt_centro {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 20rem;
+	height: 13rem;
+	margin: 0.6rem;
+	background-color: white;
+	text-decoration: none;
+	font-size: 1.3rem;	
+	font-weight: 700;
+	color: black;
+	border: 1px solid #ccc;
+	border-radius: 0.6rem;
+	transition: 0.2s;
+}
+
+
+.bt_centro:hover {
+	background-color: #eee;
+	transform: scale(1.1);
+}
+
+#bt_consultar {
+	border-left: 0.7rem solid #EF4E3B;	
+}
+
+#bt_cadastrar {
+	border-left: 0.7rem solid #569FD3;
+}
+
+#bt_entrada {
+	border-left: 0.7rem solid #5BBF85;
+}
+
+#bt_saida {
+	border-left: 0.7rem solid #FFB102;	
+}
+
+
+/* ENTRADA */
+
+
+.form-control-sm {
+	border: 1px solid #ced4da;
+}
+
+.form-control-sm:hover {
+	border: 1px solid #86B7FE;
+	outline: 3.5px solid #C2DBFE;
+}
+
+
+
+.form-select-sm {
+	border: 1px solid #ced4da;
+	
+}
+
+.form-select-sm:hover {
+	border: 1px solid #86B7FE;
+	outline: 3.5px solid #C2DBFE;
+}
+
+.inputs-align {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: 0.7rem;
+}
+
+.inputs-align form-label {
+	color: red;
+
+}
+
+
+
+/*========== MEDIA QUERY - RESPONSIVO ==========*/
+
+	/*
+	*/
+@media(max-width: 992px) {
+	
+	.barra-menu {
+	background-color: tomato;
+	visibility: hidden;
+	display: none;
+	}
+	
+	.navbar {
+	visibility: visible;
+	display: block;
+	}
+	
+	.conteudo_centro {
+	width: 100vw;
+	}
+	
+	a {
+	margin: 0.17rem;
+	}
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
