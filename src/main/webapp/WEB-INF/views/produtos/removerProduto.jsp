@@ -12,7 +12,7 @@
 </head>
 <body>
 	<div class="container">
-		<h2>Deseja realmente, remover este produto</h2>
+		<h2 class="mt-5">Deseja realmente, remover este produto</h2>
 
 		<div class="alert alert-danger">
 			<div>Produto: ${produto.nome}</div>
@@ -24,7 +24,7 @@
 				<input type="hidden" name="id" value="${produto.id}" />
 				<div>
 					<a class="btn btn-warning" href="/produtos/lista">Não, retornar para produtos</a>
-					<a type="submit" class="btn btn-danger">Sim, Remover</a>
+					<button type="submit" class="btn btn-danger">Sim, Remover</button>
 				</div>
 			</div>
 		</form>
