@@ -23,8 +23,8 @@ com o FRONT-END
 <table>
 <thead>
   <tr>
-    <th style="color: red;">Ações</th>
-    <th style="color: red;">EndPoint</th>
+    <th>Ações</th>
+    <th>EndPoint</th>
   </tr>
 </thead>
 <tbody>
@@ -94,32 +94,26 @@ com o FRONT-END
 
 
 ### Tecnologias utilizadas
+>* Java
+>* Spring Boot
+>* JPA / Hibernate
+>* Maven
+>* JSP (Java Server Pages)
+>* MySQL
+>* Eclipse
 
-<div style="background-color: #f6f8fa; border-radius: 5px; padding: 20px 0px 10px 10px ;">
-<ul>
-<li>Java</li>
-<li>Spring Boot</li>
-<li>JPA / Hibernate</li>
-<li>Maven</li>
-<li>JSP (Java Server Pages)</li>
-<li>MySQL</li>
-<li>Eclipse</li>
-</ul>
-</div>
+
 
 ### Inicialização
-```
-Pode criar o banco de dados MySQL utilizando a Query DDL (Encontrada na pasta principal do projeto)
+> Pode criar o banco de dados MySQL utilizando a Query DDL (Encontrada na pasta principal do projeto)<br>
+>
+> Após o git clone<br>
+> Basta clicar em Run AlmoxarifadoApplication ou CTRL + F11<br>
+> Abrir o navegador e digitar o endereço http://localhost:8080<br>
 
-Após o git clone
-Basta clicar em Run AlmoxarifadoApplication ou CTRL + F11
-Abrir o navegador e digitar o endereço http://localhost:8080
 
-
-```
 
 ### Colaboradores
-```
-David Mello Miura
-Leo Hendryc Viana de Sousa
-```
+
+> David Mello Miura<br>
+> Leo Hendryc Viana de Sousa
