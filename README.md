@@ -1,5 +1,6 @@
 ### Sistema de Almoxarifado
->O objetivo do sistema é controlar o estoque do almoxarifado, suas entradas e saídas, afim de gerenciar seus itens <br>
+>O objetivo do sistema é controlar o estoque do almoxarifado, <br>
+suas entradas e saídas, afim de gerenciar seus itens <br>
 Foi desenvolvido como projeto de um curso de Spring Boot
 
 
@@ -105,7 +106,8 @@ com o FRONT-END
 
 
 ### Inicialização
-> Pode criar o banco de dados MySQL utilizando a Query DDL (Encontrada na pasta principal do projeto)<br>
+> Pode criar o banco de dados MySQL utilizando a Query DDL <br>
+(Encontrada na pasta principal do projeto)<br>
 >
 > Após o git clone<br>
 > Basta clicar em Run AlmoxarifadoApplication ou CTRL + F11<br>
