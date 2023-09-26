@@ -1,32 +1,30 @@
 ### Sistema de Almoxarifado
-```
-O objetivo do sistema é controlar o estoque do almoxarifado, suas entradas e saídas, afim de gerenciar seus itens <br>
+>O objetivo do sistema é controlar o estoque do almoxarifado, suas entradas e saídas, afim de gerenciar seus itens <br>
 Foi desenvolvido como projeto de um curso de Spring Boot
-```
+
 
 ### Funcionalidades do projeto
-```
-- Conexão com MySQL
-- CRUD de Produto
-- Consultar
-- CRUD Entrada
-- CRUD Saída
-- API Rest
+> - Conexão com MySQL
+> - CRUD de Produto
+> - Consultar
+> - CRUD Entrada
+> - CRUD Saída
+> - API Rest
+>
+> CRUD: Create, Read, Update, Delete
+>
+> Nas páginas que existe listagens possui um botão API em azul, <br>
+para visualizar o retorno em JSON das (APIs) para fazer conexão <br>
+com o FRONT-END
 
-CRUD: Create, Read, Update, Delete
 
-
-Nas páginas que existe listagens possui um botão API em azul, para visualizar o retorno em JSON das (APIs)
-para fazer conexão com o FRONT-END
-
-```
 
 ### Endpoints
 <table>
 <thead>
   <tr>
-    <th>Ações</th>
-    <th>EndPoint</th>
+    <th style="color: red;">Ações</th>
+    <th style="color: red;">EndPoint</th>
   </tr>
 </thead>
 <tbody>
@@ -77,8 +75,8 @@ para fazer conexão com o FRONT-END
 <table>
 <thead>
   <tr>
-    <th>Ações</th>
-    <th>EndPoint</th>
+    <th style="color: red;">Ações</th>
+    <th style="color: red;">EndPoint</th>
   </tr>
 </thead>
 <tbody>
@@ -96,15 +94,18 @@ para fazer conexão com o FRONT-END
 
 
 ### Tecnologias utilizadas
-```
-- Java
-- Spring Boot
-- JPA / Hibernate
-- Maven
-- JSP (Java Server Pages)
-- MySQL
-- Eclipse
-```
+
+<div style="background-color: #f6f8fa; border-radius: 5px; padding: 20px 0px 10px 10px ;">
+<ul>
+<li>Java</li>
+<li>Spring Boot</li>
+<li>JPA / Hibernate</li>
+<li>Maven</li>
+<li>JSP (Java Server Pages)</li>
+<li>MySQL</li>
+<li>Eclipse</li>
+</ul>
+</div>
 
 ### Inicialização
 ```
