@@ -14,9 +14,9 @@ Foi desenvolvido como projeto de um curso de Spring Boot
 >
 > CRUD: Create, Read, Update, Delete
 >
-> Nas páginas que existe listagens possui um botão API em azul, <br>
-para visualizar o retorno em JSON das (APIs) para fazer conexão <br>
-com o FRONT-END
+> Nas páginas que existe listagens, existe um botão API em azul, <br>
+para visualizar o retorno em JSON das (APIs), para visualizar a  <br>
+resposta que será enviada ao fazer conexão com o FRONT-END <br>
 
 
 
