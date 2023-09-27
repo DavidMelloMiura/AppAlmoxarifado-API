@@ -112,7 +112,8 @@ resposta que será enviada ao fazer conexão com o FRONT-END <br>
 > Após o git clone<br>
 > Basta clicar em Run AlmoxarifadoApplication ou CTRL + F11<br>
 > Abrir o navegador e digitar o endereço http://localhost:8080 ou <br>
-> pode testar utilizar o postman enviando as requisições através dos endpoints listados nesse README
+> pode testar utilizando o postman enviando as requisições através <br>
+> dos endpoints listados nesse README
 
 
 
